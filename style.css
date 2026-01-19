@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+#header {
+  background-color: #1a0b2e;
+  max-width: 1745px;
+}
+#header .navber {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 92px;
+  margin: 0 auto;
+}
+#header .navber h2 {
+  color: white;
+  width: 219px;
+  height: 32px;
+  font-weight: bold;
+  gap: 30px;
+}
+#header .navber ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+
+#header .navber ul li a {
+  text-decoration: none;
+  color: white;
+  
+}
+.btn{ 
+  color: white;
+  border: none;
+  gap: 10px;
+  padding: 12px 16px;
+  border-radius: 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg,#a100ff,#ff4ecd,#ffdd00);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+ 
+}
+.linear{
+  background: linear-gradient(135deg,#a100ff,#ff4ecd,#ffdd00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+  
