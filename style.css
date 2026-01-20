@@ -353,14 +353,21 @@ background-image: url(./assets/hero-bg.png);
   background-size: cover;
   max-width: 1745px;
   height: 412px;
+ 
+  
+  
   
 }
-.footer-content h2 {
+.footer-content h2 { 
+  
   color: white;
   width: 410px;
   height: 60px;
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: bold;
+  position: relative;
+  top: -130px;
+  left: 240px;
  
  
 }
@@ -369,6 +376,10 @@ background-image: url(./assets/hero-bg.png);
   font-size: 1rem;
   margin-top: 20px;
   padding: 10px;
+  position: relative;
+  top: -55px;
+  right: 140px;
+  
   
   
   
@@ -393,11 +404,13 @@ background-image: url(./assets/hero-bg.png);
   margin-bottom: 10px;
 }
 .foot2 {
+  max-width: 544px;
+  height: 24px;
   align-items: center;
   margin-bottom: 20px;
   text-align: center;
   position: relative;
-  right: 40px;
+  right: 75px;
   top: 20px;
 }
 .foot3 {
@@ -407,6 +420,13 @@ background-image: url(./assets/hero-bg.png);
   margin-bottom: 10px;
   
 }
+.footer-p img {
+  margin-right: 8px;
+  gap: 20px;
+  
+}
+
+
 
 
 
