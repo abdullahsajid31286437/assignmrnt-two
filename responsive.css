@@ -1,0 +1,229 @@
+@media screen and (min-width: 577px)  {
+  .heddin {
+    visibility: hidden;
+    display: none;
+  } 
+}
+@media screen and (max-width: 576px)  {
+  .navber ul button, .navber ul li, .black {
+    display: none;
+    visibility: hidden;
+  }
+
+  
+  #header .navber {
+   
+    height: auto;
+    padding: 20px;
+    gap: 15px;
+  }
+  
+  #header .navber ul {
+    
+    gap: 10px;
+    margin: 15px 0;
+  }
+  .bennar-content {
+    height: auto;
+    min-height: 500px;
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  .bennar-content img {
+    margin-top: 0;
+    width: 200px;
+  }
+  .bennar-buttons {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+  }
+    
+  .microphone {
+    left: 220px;
+    margin-bottom: 30px;
+        
+    
+  }
+  
+  .new button {
+    left: 330px;
+    bottom: 550px;
+  }
+  
+  .bennar-text h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .bennar-text p {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .bennar-buttons {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  
+  .section {
+    height: auto;
+    padding: 40px 20px;
+  }
+  
+  .about h1 {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+  
+  .about p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .number {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .number h2 {
+    font-size: 2rem;
+  }
+  
+  .number p {
+    font-size: 0.9rem;
+  }
+  
+  
+  .section2 {
+    height: auto;
+    padding: 40px 20px;
+  }
+  
+  .why h2 {
+    font-size: 2rem;
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  #display-grit {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: auto;
+    gap: 20px;
+  }
+  
+  .grit1, .grit2, .grit3, .grit4 {
+    grid-column: span 1;
+    grid-row: span 1;
+    margin: 0;
+    padding: 30px;
+  }
+
+  .section2 h3 {
+    font-size: 1.5rem;
+  }
+  
+  
+  #section3 {
+    width: 100%; 
+  }
+  .youtube {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  }
+  
+  
+  
+  .meet {
+    flex-direction: column;
+    width: 400px;
+    height: 550px;
+    padding: 30px;
+    margin-top: 30px;
+   
+    gap: 20px;
+  }
+  
+  .meet h3 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .meet p {
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  .meet1 {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  /* Footer */
+ 
+
+
+  #footer {
+    width: 100%;
+    height: auto;
+    padding: 40px 20px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  .footer-content h2 {
+    position: static;
+    font-size: 2.5rem;
+    left: 0;
+    top: 0;
+    margin: 0 auto 20px;
+  }
+  
+  .foot2 {
+    position: static;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    right: 0;
+    top: 0;
+  }
+  
+  .footer-p {
+    position: static;
+    margin: 5px 0;
+    padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .foot3 {
+    margin-top: 90px;
+    
+
+
+
+
+  
+}
+  
+}
+  
+
+

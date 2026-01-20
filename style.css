@@ -87,7 +87,9 @@ background-image: url(./assets/hero-bg.png);
  .microphone {
   position: absolute;
   left: 805px;
-  bottom: 390px;
+  bottom: 360px;
+  max-width: 200px;
+  height: 200px;
  }
  .new button {
   background-color: #00ff88;
@@ -209,7 +211,7 @@ background-image: url(./assets/hero-bg.png);
 }
 #display-grit {
   max-width: 1300px;
-  height: 800px;
+  
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -228,6 +230,7 @@ background-image: url(./assets/hero-bg.png);
   gap: 16px;
   padding: 70px;
   margin: 50px;
+  margin-bottom: 50px;
   
 }
 .grit2{
@@ -237,6 +240,7 @@ background-image: url(./assets/hero-bg.png);
   gap: 16px;
   padding: 40px;
   margin-right: 20px;
+  margin-top: 50px;
   
 }
 .grit3{
@@ -262,7 +266,7 @@ background-image: url(./assets/hero-bg.png);
 
 #section3 {
   max-width: 1745px;
-  height: 1300px;
+  
   background-color: #1a0b2e;
 
 }
@@ -349,13 +353,9 @@ background-image: url(./assets/hero-bg.png);
 
 
 #footer {
-  background-image: url(./assets/footer-bg.png);
-  background-size: cover;
   max-width: 1745px;
   height: 412px;
- 
-  
-  
+  background-image: url(./assets/footer-bg.png);
   
 }
 .footer-content h2 { 
@@ -418,13 +418,20 @@ background-image: url(./assets/hero-bg.png);
   text-align: center;
 
   margin-bottom: 10px;
-  
+ 
 }
 .footer-p img {
   margin-right: 8px;
-  gap: 20px;
-  
+  gap: 20px
 }
+
+
+  
+
+  
+
+
+
 
 
 
