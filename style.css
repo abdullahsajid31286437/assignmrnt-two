@@ -52,6 +52,8 @@
   display: flex;
   align-items: center;
   gap: 8px;
+
+ 
  
 }
 .linear{
@@ -113,6 +115,10 @@ background-image: url(./assets/hero-bg.png);
   align-items: center;
   gap: 8px;
   font-size: 1rem;
+
+   animation: blink 1s infinite;
+
+
  }
  .bennar-text{
   display: grid;
@@ -425,7 +431,12 @@ background-image: url(./assets/hero-bg.png);
   gap: 20px
 }
 
+@keyframes blink {
+  0%  {opacity: 1;}
+  50%  {opacity: 0;}
+  100%  {opacity: 1;}
 
+}
   
 
   
